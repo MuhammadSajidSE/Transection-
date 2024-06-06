@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
+import 'package:money_transfer/view/all_notifications.dart';
 import 'package:money_transfer/view/signup.dart';
 
 Widget appbar() {
@@ -38,7 +39,9 @@ Widget appbar() {
         ),
         child: InkWell(
             child: IconButton(
-          onPressed: () {},
+          onPressed: () {
+            Get.to(AllNotification());
+          },
           icon: const Icon(
             Icons.notifications_active,
             color: Colors.white,

@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:money_transfer/controller/database_logic.dart';
+import 'package:money_transfer/services/database_logic.dart';
 class Splash extends StatefulWidget {
   const Splash({super.key});
   @override

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:money_transfer/controller/database_logic.dart';
+import 'package:money_transfer/services/database_logic.dart';
 import 'package:money_transfer/view/login.dart';
 
 class Signup extends StatefulWidget {

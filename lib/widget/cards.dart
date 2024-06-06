@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-Widget cards(double amount, double lastamount, String sign, Color lastamountclr,
+Widget cards(int amount, double lastamount, String sign, Color lastamountclr,
     Color cardcolor, Color iconcolor, Color circlecolor, Color borderColor, String cardtext) {
   return Container(
     decoration: BoxDecoration(
